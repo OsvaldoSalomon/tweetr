@@ -1,0 +1,64 @@
+.profileCardBody {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    height: 25em;
+    width: 20%;
+    position: fixed;
+    left: 7%;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(1.5em) saturate(200%);
+    background-color: rgba(194, 220, 255, 0.51);
+    border-radius: 1.5em;
+    border: 0.1em solid rgba( 255, 255, 255, 0.18 );
+    box-sizing: border-box;
+}
+
+.profileImageLogo {
+    width: 6em;
+    height: 6em;
+    z-index: 2;
+    border-radius: 50%;
+    position: relative;
+    bottom: 2em;
+}
+
+.profileCardBackground {
+    background-image: url("https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.profileCardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileBio {
+    text-align: center;
+}
+
+.linkToUserProfile {
+    background-color: rgba(5, 75, 233, 0.65);
+    padding-right: .5em;
+    padding-left: .5em;
+    border-radius: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.linkToUserProfile:hover {
+    background-color: rgba(3, 55, 172, 0.77);
+    padding-right: .5em;
+    padding-left: .5em;
+    border-radius: 1em;
+    text-decoration: none;
+    color: white;
+}

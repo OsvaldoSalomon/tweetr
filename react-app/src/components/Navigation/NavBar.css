@@ -1,0 +1,76 @@
+.navBar {
+    background-color: #004AA9;
+    /* box-shadow: 0 3px 8px #9095A1; */
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.authLink {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #235fea;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: .4em;
+    border-radius: 1em;
+}
+
+.authLink:hover {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0049e3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: .4em;
+    border-radius: 1em;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5em;
+}
+
+.logoLink {
+    text-decoration: none;
+    display: flex;
+    margin-left: 4em;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.linkQuestions {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #235fea;
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: .4em;
+    border-radius: 1em;
+}
+
+.linkQuestions:hover {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0049e3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: .4em;
+    border-radius: 1em;
+}
+
+.loginSignLink {
+    display: flex;
+    gap: 1em;
+    margin-right: 2em;
+}
