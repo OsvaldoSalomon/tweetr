@@ -3,7 +3,7 @@
 TwittR is a clone of Twitter, this application allows you to keep in touch with your friends and family, users are able
 to post tweets and share them with their community.
 
-Live Link: https://tweet-r.herokuapp.com/
+Live Link: https://tweetr.onrender.com
 
 ### Technologies used
 
@@ -24,7 +24,7 @@ Live Link: https://tweet-r.herokuapp.com/
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/OsvaldoSalomon/capstone-project.git
+   git clone https://github.com/OsvaldoSalomon/tweetr
    ```
 
 2. Install dependencies
